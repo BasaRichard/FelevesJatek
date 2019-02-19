@@ -10,6 +10,9 @@ namespace FelevesJatek
     {
         static void Main(string[] args)
         {
+             //Jatek Start 
+             //most 
+
         }
     }
 }
