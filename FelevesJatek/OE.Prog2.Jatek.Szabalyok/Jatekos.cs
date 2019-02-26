@@ -10,6 +10,7 @@ namespace FelevesJatek.OE.Prog2.Jatek.Szabalyok
     {
         private string nev;
         private int eletero=100;
+        private int pontszam = 0;
 
 
         public string Nev
@@ -42,6 +43,16 @@ namespace FelevesJatek.OE.Prog2.Jatek.Szabalyok
                     // aktiv tulajdonsag hamis 
                 }
             }
+        }
+        public void PontotSzerez(int pontszam)
+        {
+            this.pontszam += pontszam;
+        }
+        public void Megy (int rx , int ry )
+        {
+
+            // Athelyez();
+
         }
 
     }

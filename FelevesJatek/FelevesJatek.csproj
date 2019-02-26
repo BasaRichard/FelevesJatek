@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="OE.Prog2.Jatek.Jatekter\JatekElem.cs" />
     <Compile Include="OE.Prog2.Jatek.Jatekter\JatekTer.cs" />
+    <Compile Include="OE.Prog2.Jatek.Jatekter\Kincs.cs" />
     <Compile Include="OE.Prog2.Jatek.Szabalyok\Fal.cs" />
     <Compile Include="OE.Prog2.Jatek.Szabalyok\Jatekos.cs" />
     <Compile Include="Program.cs" />
