@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OE.porg2.keret\Keret.cs" />
     <Compile Include="OE.Prog2.Jatek.Jatekter\JatekElem.cs" />
     <Compile Include="OE.Prog2.Jatek.Jatekter\JatekTer.cs" />
     <Compile Include="OE.Prog2.Jatek.Jatekter\Kincs.cs" />
