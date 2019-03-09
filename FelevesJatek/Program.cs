@@ -25,7 +25,16 @@ namespace FelevesJatek
         {
              //Jatek Start 
              //most 
-
-        }
+             
+            
+            /*/JatekTer ter1 = new JatekTer(5,5);
+             JatekElem proba1 = new JatekElem(2,2,ter1);
+             JatekElem proba2 = new JatekElem(3,4,ter1);
+                 JatekElem proba3 = new JatekElem(2,2,ter1);
+             JatekElem proba4 = new JatekElem(2,2,ter1);
+            ter1.Törles(proba3);
+        ter1.MegadottHelyenLevök(2,2);
+            ter1.MegadottHelyenLevök(2,2,4);/*/
+}
     }
 }

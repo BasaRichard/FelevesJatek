@@ -61,8 +61,35 @@ namespace FelevesJatek
            
         }
 
+        public JatekElem[] MegadottHelyenLevök ( int x, int y, int tavolsag)
+        {
+            
+            int i=0;
+            
+            int[] megfelelöelemek = new int[Max_Elemszam]; //idx-eit tárolja az elemeknek amik teljesítik a kitételt
+            int idx =0;
+            for (int j = 0; j < elemek.Length; j++)
+			{
+                if (Math.Abs(x-elemek[j].X) <= tavolsag &&  Math.Abs(y-elemek[j].Y) <= tavolsag)
+                {
+                i++;  
+                    megfelelöelemek[idx]=j;
+                }
+			}
 
+            JatekElem[] megadottHelyenLevok = new JatekElem[i];
+            
+                for (int j = 0; j < megadottHelyenlevok.Length; j++)
+			    {
+                    MegadottHelyenLevök[j]= elemek[megfelelöelemek[j]];
+			    }
+            return megadottHelyenLevok;
+        }
 
+        public JatekElem[] MegadottHelyenLevök ( int x, int y)
+            {
+            MegadottHelyenLevök(x, y, 0)
+            ;}
 
 
 
